@@ -253,4 +253,16 @@ var WpsService = Class.extend({
 		}
 	},
 
+
+	dismissProcess_POST : function (callbackFunction, jobId){
+		var dismissProcessRequest;
+
+		dismissProcessRequest = new DismissProcessPostRequest({
+			url : this.settings.url,
+			version : this.settings.version,
+			jobId : jobId
+		});
+
+		dismissProcessRequest.execute(callbackFunction);
+	}
 });

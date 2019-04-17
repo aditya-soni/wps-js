@@ -6,6 +6,7 @@ var DESCRIBE_PROCESS_TYPE = "DescribeProcess";
 var EXECUTE_TYPE = "Execute";
 var GET_STATUS_TYPE = "GetStatus";
 var GET_RESULT_TYPE = "GetResult";
+var DISMISS_PROCESS_TYPE = "DismissProcess";
 
 var OWS_11_NAMESPACE = "http://www.opengis.net/ows/1.1";
 var WPS_100_NAMESPACE = "http://www.opengis.net/wps/1.0.0";
